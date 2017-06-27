@@ -8,6 +8,7 @@ class PinsController < ApplicationController
     @pins= @user.pins
   end
 
+
   def mypins
     @pins = current_user.pins
   end

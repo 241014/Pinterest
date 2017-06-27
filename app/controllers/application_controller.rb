@@ -10,4 +10,5 @@ class ApplicationController < ActionController::Base
     devise_parameter_sanitizer.for(:sing_up){ |u| u.permit(:email, :password, :password_confirmation, :phone )}
   end
 
+
 end
